@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form>
+		<div>
+	<center><h1> Emoloyee Registration Form</h1></center>
+	<hr>
+	<lable>Firstname:</lable>
+	<input type="firstname" name="firstname" placeholder="firstname" size="10" required /><br><br>
+	<lable>Middlename:</lable>
+	<input type="Middlename" name="Middlename" placeholder="Middlename" size="25" required /><br><br>
+	<lable>lastname:</lable>
+	<input type="lastname" name="lastname" placeholder="lastname" size="10" required /><br><br>
+	<div>
+	<lable for="Department">Department:</lable>
+	<select>
+		<option value="course">Department</option>
+		<option value="BCA">Management</option>
+		<option value="BBA">Human Resource</option>
+		<option value="B.TECH">Customer support</option>
+		<option value="MBA">Development</option>
+		<option value="MCA">Business</option>
+		<option value="M.TECH">corporate finance</option>
+	</select>
+	</div><br>
+	<div>
+		<lable for="gender">Gender:</lable><br>
+		<input type="radio" name="male" value="gender"> Male <br>
+		<input type="Radio" name="Female" value="gender"> Female <br>
+	    <input type="radio" name="other" value="gender"> other <br>
+	</div>
+	<br>
+	<lable>Phone:</lable>
+	<input type="text" name="country code" placeholder="Country code" value="+91" size="2"/>
+	<input type="tel" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required />
+	<br><br>
+	Current Address :
+	<textarea cols="80" rows="5" placeholder="Current Address" value="address" required />
+	</textarea> <br><br>
+	<lable for="myfile">Drop your Resume:</lable>
+	<input type="file" id="myfile" name=myfile"><br><br>
+	<lable for="email"><b>Email</b></lable>
+	<input type="email" placeholder="Enter Email" name="email" required />
+	<br><br>
+	<lable for="psw"><b>Password</b></lable>
+	<input type="password" placeholder="Enter Password" name="psw" required />
+	<br><br>
+	<lable for="psw-repeat"><b>Re-Type Password</b></lable>
+	<input type="password" placeholder="Retype Password" name="psw-repeat" required /><br><br>
+	<button type="submit" class="registerbtn">Register</button>
+</div>
+</form>
+</body>
+</html>
